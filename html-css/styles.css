@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #1c5c4f;
     color: #333;
 }
 
@@ -90,6 +90,11 @@ p {
     margin-bottom: 30px;
 }
 
+.img-1 {
+    width: 1000px;
+    height: 1000px;
+}
+
 #products img {
     width: 100%;
     max-width: 300px;
@@ -100,15 +105,20 @@ p {
 /* Catalog Section */
 #catalog {
     padding: 50px;
+    text-align: center;
+    align-self: center;
 }
 
 .grid-container {
+    align-content: center;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
 }
 
 .grid-item {
+    align-content: center;
+    text-align: center;
     background-color: #ff6600;
     color: white;
     padding: 20px;
