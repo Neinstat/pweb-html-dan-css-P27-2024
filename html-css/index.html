@@ -3,80 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UMKM Business Website</title>
+    <title>Kang Tani - Digital Agriculture</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar">
-        <ul>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#catalog">Catalog</a></li>
-            <li><a href="#gallery">Gallery</a></li>
+    <nav>
+        <div class="logo">Kang Tani</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li><a href="#">Layanan</a></li>
+            <li><a href="#">Galeri</a></li>
+            <li><a href="#">Testimoni</a></li>
+            <li><a href="#">Kontak</a></li>
         </ul>
     </nav>
 
-    <!-- Landing Page / Hero Section -->
+    <!-- Hero Section -->
     <section class="hero">
-        <h1>Welcome to Our UMKM</h1>
-        <p>Your solution for quality products and services.</p>
-        <a href="#products" class="cta-button">Explore Now</a>
-    </section>
-
-    <!-- Product Section -->
-    <section id="products">
-        <h2>Why us?</h2>
-        <div class="product">
-            <img class="img-1" src="/img/image-toko.png" alt="Product 1">
-            <h3>Product 1</h3>
-            <p>High-quality and affordable product for your needs.</p>
+        <div class="hero-text">
+            <h1>Ketahui Hama, Selamatkan Hama</h1>
+            <p>Kang Tani, Solusi Digital Pertanian.</p>
+            <form>
+                <input type="email" placeholder="Email address">
+                <input type="password" placeholder="Password">
+                <button type="submit">Login</button>
+            </form>
+            <div class="social-login">
+                <a href="#">Facebook</a>
+                <a href="#">Google</a>
+                <a href="#">Apple</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <!-- Add your illustration image -->
+            <img src="farmer.png" alt="Farmer Illustration">
         </div>
     </section>
 
-    <!-- Catalog Section -->
-    <section id="catalog">
-        <h2>Our Catalog</h2>
-        <div class="grid-container">
-            <div class="grid-item">Product 1</div>
-            <div class="grid-item">Product 2</div>
-            <div class="grid-item">Product 3</div>
-            <div class="grid-item">Product 4</div>
-            <div class="grid-item">Product 5</div>
+    <!-- About Product Section -->
+    <section class="about-product">
+        <h2>Butuh Obat Anti Hama?</h2>
+        <p>Kita Menjual berbagai obat untuk hama.</p>
+        <div class="product-list">
+            <div class="product-item">
+                <h3>Methomyl</h3>
+            </div>
+            <div class="product-item">
+                <h3>Mancozeb</h3>
+            </div>
+            <div class="product-item">
+                <h3>Thiamethoxam</h3>
+            </div>
         </div>
     </section>
 
     <!-- Gallery Section -->
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery">
-            <img src="image1.jpg" alt="Gallery Image 1">
-            <img src="image2.jpg" alt="Gallery Image 2">
-            <img src="image3.jpg" alt="Gallery Image 3">
+    <section class="gallery">
+        <h2>Preview of Pesticide</h2>
+        <div class="gallery-grid">
+            <img src="pesticide1.jpg" alt="Pesticide 1">
+            <img src="pesticide2.jpg" alt="Pesticide 2">
+            <img src="pesticide3.jpg" alt="Pesticide 3">
+            <img src="pesticide4.jpg" alt="Pesticide 4">
         </div>
     </section>
 
     <!-- Testimonial Section -->
-    <section id="testimonials">
-        <h2>Testimonials</h2>
-        <div class="testimonial-card">
-            <p>"Great product, highly recommend!"</p>
-            <p>- John Doe</p>
-        </div>
-        <div class="testimonial-card">
-            <p>"Amazing service and quality!"</p>
-            <p>- Jane Smith</p>
+    <section class="testimonial">
+        <h2>Testimoni</h2>
+        <div class="testimonial-item">
+            <p>Pak Jiki - Obat Lengkap, Ampuh, Harga Murah!</p>
         </div>
     </section>
 
-    <!-- Call to Action Section -->
-    <section id="contact">
-        <h2>Get in Touch</h2>
-        <a href="https://wa.me/1234567890" class="cta-button">Contact Us on WhatsApp</a>
+    <!-- Call to Action -->
+    <section class="cta">
+        <h2>Identifikasi Hama Pada Tanaman</h2>
+        <p>Just one call away: +62 898 9999 123</p>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 UMKM Tahu Bulat Ary. All rights reserved.</p>
+        <div class="footer-content">
+            <p>© 2024 Kang Tani. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
